@@ -6,12 +6,6 @@ const secretKey = "secretKey";
 
 app.use(express.json());
 
-// app.get('/', (req, res)=>{
-//     res.json({
-//         message: 'test api'
-//     })
-// })
-
 app.post("/login", (req, res) => {
   const user = {
     id: 1,
